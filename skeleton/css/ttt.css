@@ -1,0 +1,50 @@
+.tile {
+  float: left;
+  background-color: grey;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+}
+
+.tile:hover {
+  background-color: yellow;
+}
+
+main {
+  margin: 0 auto;
+  width: 300px;
+}
+
+.playedTile{
+  float: left;
+  background-color: white;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+}
+
+.x {
+  display: block;
+  font-size: 64px;
+  text-align: center;
+  color: red;
+  padding: 10px;
+}
+
+.o {
+  display: block;
+  font-size: 64px;
+  text-align: center;
+  color: blue;
+  padding: 10px;
+}
+
+.message{
+  font-size: 24px;
+  text-align: center;
+  color: green;
+}
+
+* {
+  box-sizing: border-box;
+}
